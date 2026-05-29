@@ -48,17 +48,23 @@
         "android.permission.CAMERA",
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE",
-        "android.permission.VIBRATE"
+        "android.permission.VIBRATE",
+        "android.permission.RECORD_AUDIO"
       ],
       "intentFilters": [
         {
           "action": "android.intent.action.VIEW",
-          "data": [{ "scheme": "pocketwallet" }],
-          "category": ["android.intent.category.DEFAULT", "android.intent.category.BROWSABLE"]
+          "data": [
+            {
+              "scheme": "pocketwallet"
+            }
+          ],
+          "category": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ]
         }
       ],
       "queries": [
-        { "package": "com.google.android.apps.nbu.paisa.user" },
-        { "package": "com.phonepe.app" },
-        { "package": "net.one97.paytm" },
-        { "package": "in.org.npci.upiap
+        {
+          "package": "com.google.android.apps.nbu
