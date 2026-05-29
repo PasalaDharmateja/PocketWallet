@@ -38,7 +38,7 @@
         "backgroundColor": "#4F46E5"
       },
       "package": "com.dharmateja.pocketwallet",
-      "versionCode": 7,
+      "versionCode": 8,
       "compileSdkVersion": 35,
       "targetSdkVersion": 35,
       "minSdkVersion": 24,
