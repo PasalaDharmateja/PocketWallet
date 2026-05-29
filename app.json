@@ -37,10 +37,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#4F46E5"
       },
-      "package": "com.pocketwallet.app",
-      "versionCode": 2,
-      "compileSdkVersion": 34,
-      "targetSdkVersion": 34,
+      "package": "com.dharmateja.pocketwallet",
+      "versionCode": 4,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
       "minSdkVersion": 24,
       "permissions": [
         "android.permission.USE_FINGERPRINT",
@@ -67,4 +67,4 @@
       ],
       "queries": [
         {
-          "package": "com.google.android.apps.nbu
+          "package": "com.google.android.a
