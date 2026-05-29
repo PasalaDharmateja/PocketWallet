@@ -49,27 +49,16 @@
         "android.permission.INTERNET",
         "android.permission.ACCESS_NETWORK_STATE",
         "android.permission.VIBRATE"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-local-authentication",
-      "expo-secure-store",
-      [
-        "expo-camera",
+      ],
+      "intentFilters": [
         {
-          "cameraPermission": "PocketWallet uses the camera to scan UPI QR codes."
+          "action": "android.intent.action.VIEW",
+          "data": [{ "scheme": "pocketwallet" }],
+          "category": ["android.intent.category.DEFAULT", "android.intent.category.BROWSABLE"]
         }
       ],
-      "expo-font"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "1f8e7b2f-2e16-4184-969a-fa547b55d564"
-      }
-    },
-    "owner": "dharmatejapasala"
-  }
-}
+      "queries": [
+        { "package": "com.google.android.apps.nbu.paisa.user" },
+        { "package": "com.phonepe.app" },
+        { "package": "net.one97.paytm" },
+        { "package": "in.org.npci.upiap
