@@ -17,6 +17,7 @@
     "@react-navigation/native-stack": "^6.9.26",
     "@supabase/supabase-js": "^2.106.2",
     "expo": "~52.0.0",
+    "expo-asset": "~11.0.0",
     "expo-build-properties": "~0.13.0",
     "expo-camera": "~16.0.0",
     "expo-clipboard": "~7.0.0",
@@ -38,5 +39,4 @@
     "react-native-svg": "15.8.0",
     "react-native-web": "~0.19.10"
   },
-  "devDependencies": {
-    "@babel/core": 
+  "devDepende
